@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: rgb(29, 29, 255);
+}
+a{
+    text-decoration: none;
+}
+h1{
+    letter-spacing: -0.2rem;
+}
+span{
+    font-size: 4rem;
+}
+.s{
+    color: red;
+}
+.k{
+    color: orange;
+}
+.r{
+    color: yellow;
+}
+.i{
+    color: green;
+}
+.b{
+    color: cyan;
+}
+.b2{
+    color: rgb(82, 82, 243);
+}
+.l{
+    color: purple;
+}
+.kropka{
+    color: pink;
+}
+.wh{
+    color: white;
+}
+@media (min-width: 1000px) {
+	.container {
+		width: 70vw;
+		height: 100vh;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-left: 15vw;
+		margin-right: 15vw;
+	}
+	.gorna {
+		height: 20vh;
+		width: 70vw;
+		background: white;
+		margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+
+	}
+    .napis{
+        padding-top: 1vh;
+        width: 70vw;
+        height: 10vh;
+        background-color: rgb(29, 29, 255);
+    }
+    .pasek{
+        width: 70vw;
+        height: 10vh;
+        background: white;
+    }
+	.lewo {
+		width: 15vw;
+		height: 8vh;
+		background-color: white;
+		border-radius: 10px;
+	}
+	.srodek {
+		margin-top: 0vh;
+		width: 39.4vw;
+		height: 60vh;
+		background-color: rgb(175, 175, 175);
+		margin-left: 0.5vh;
+		margin-right: 0.5vh;
+	}
+	.prawo {
+		width: 15vw;
+		height: 60vh;
+		background-color: rgb(255, 255, 255);
+	}
+    .lewo, .srodek, .prawo{
+        margin-bottom: 14vh;
+    }
+    .form{
+        background-color: rgb(255, 255, 249);
+        width: 15vw;
+        margin-top: 57vh;
+        height: 3vh;
+    }
+    input{
+        background-color: rgb(255, 255, 249);
+        width: 15vw;
+        height: 2rem;
+        border: 1px solid black;
+    }
+    }
+
